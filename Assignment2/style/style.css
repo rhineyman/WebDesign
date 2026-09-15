@@ -29,7 +29,7 @@ h3 {
   text-align: center;
   font-size: 20px;
   margin: 60px;
-  border: 2px solid #000000;
+  
 }
 
 header {
@@ -53,8 +53,9 @@ ul {
   padding: 20px;
   text-align: center;
   border: 2px solid #000000;
-  background-color: #ff00ff;
-  font-size: 18px;
+  background-color: #c47373;
+  font-size: 25px;
+  font-family: "Century Gothic", AppleGothic, Geneva, sans-serif;
   
   
 }
@@ -92,7 +93,7 @@ footer {
   width: 100%;
 }
 nav {
-  background-color: #c47373;
+  
   padding: 10px;
   text-align: center;
 }
