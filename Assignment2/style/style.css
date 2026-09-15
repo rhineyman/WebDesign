@@ -56,6 +56,7 @@ ul {
   background-color: #ff00ff;
   font-size: 18px;
   
+  
 }
 /* style for images */
 img {
@@ -89,4 +90,16 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+nav {
+  background-color: #c47373;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
 }
