@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 2
 ## website 1
 
-This first website is going to be a simple profile style site. Further down the road I would like to do something a little more complex but for now this is going to be simple. Titles and text.
+Feeling pretty good about what we have done so far. Things get tricky when you want to put things in super specific places, but that will get better with practice. Hopefully this is kind of what you are looking for at the moment.

@@ -6,41 +6,42 @@ background-color: #b994ca;
 }
 /* style for body */
 body {
-  background-color: rgb(140, 98, 196);
+  background-color: #bb99ff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 /* style for headers */
 h1 {
-  color: rgb(5, 48, 41);
+  font-family: 'courier', sans-serif;
+  color: #053029;
   text-align: center;
 
 }
 
 h2 {
-  color: rgb(19, 19, 59);
+  color: #13133b;
   text-align: center;
     
 }
 h3 {
-  color: rgb(37, 0, 139);
+  color: #25008b;
   text-align: center;
   font-size: 20px;
   margin: 60px;
-  border: 2px solid black;
+  border: 2px solid #000000;
 }
 
 header {
 
-  border: 1px solid black;
+  border: 1px solid #000000;
   padding: 20px;
   text-align: center;
-  background-color: rgb(196, 115, 115);
+  background-color: #c47373;
 }
 /* style for paragraphs */
 p {
-  color: black;
+  color: #000000;
   text-align: center;
   font-size: 18px;
   margin: 20px;
@@ -51,8 +52,8 @@ ul {
   list-style-type: none;
   padding: 20px;
   text-align: center;
-  border: 2px solid black;
-  background-color: rgb(165, 31, 199);
+  border: 2px solid #000000;
+  background-color: #ff00ff;
   font-size: 18px;
   
 }
@@ -74,9 +75,18 @@ button {
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: rgb(165, 31, 199);
-  color: white;
+  background-color: #a51fc7;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+footer {
+  background-color: #c47373;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
