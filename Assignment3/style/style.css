@@ -54,6 +54,22 @@
  padding-left: 5%;
  text-align: left;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px; /* optional but keeps the gallery from stretching too far */
+  margin: 0 auto;
+  row-gap: 10px; /* vertical spacing */
+  column-gap: 10px; /* horizontal spacing */
+}
+
+.gallery img {
+  width: calc(33.333% - 10px); /* three images per row */
+  height: auto;
+}
+
 div { 
 background-color: #b994ca;
         padding: 10px;
