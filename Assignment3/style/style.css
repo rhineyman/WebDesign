@@ -63,13 +63,19 @@ background-color: #b994ca;
 /* style for body */
 body {
   background-color: #bb99ff;
-  font-family: Arial, sans-serif;
+    font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   margin: 0;
   padding: 0;
 }
 /* style for headers */
 h1 {
-  font-family: 'courier', sans-serif;
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
   color: #053029;
   text-align: center;
 
@@ -111,7 +117,7 @@ ul {
   border: 2px solid #000000;
   background-color: #c47373;
   font-size: 25px;
-  font-family: "Century Gothic", AppleGothic, Geneva, sans-serif;
+  font-family: "Press Start 2P", system-ui;
   
   
 }
@@ -138,6 +144,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Press Start 2P", system-ui;
 }
 footer {
   background-color: #c47373;
