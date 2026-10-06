@@ -285,12 +285,18 @@ tbody tr:last-child td {
   background: var(--white);
   object-fit: cover;
   box-shadow: var(--shadow);
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transition: transform 180ms ease, box-shadow 180ms ease;  
 }
 
 .gallery img:hover {
   transform: translateY(-3px);
   box-shadow: 0 16px 36px rgb(15 42 68 / 18%);
+}
+
+.audio-player {
+  display: block;
+  margin: 0 auto 32px;
+  
 }
 
 .SignupForm {
