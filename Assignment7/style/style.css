@@ -1,30 +1,29 @@
 :root {
   color-scheme: light;
-  --navy: #0f2a44;
-  --blue: #256d85;
-  --teal: #8ec5c1;
-  --paper: #f4f7fa;
-  --yellow: #e3b341;
-  --orange: #c25a2b;
-  --charcoal: #2e2e33;
-  --gray: #a7a7a7;
-  --white: #ffffff;
-  --shadow: 0 12px 32px rgb(15 42 68 / 10%);
+  --deep-indigo: #1A0F2E;
+  --royal-purple: #532DBC;
+  --violet: #8A5CF6;
+  --lilac: #C9A8FF;
+  --cloud-white: #F4F1FF;
+  --teal: #3CB4B8;
+  --mint: #A7E9D8;
+  --amber: #F5B75B;
+  --shadow: 0 12px 32px rgb(26 15 46 / 10%);
 }
 
 
 body {
   min-height: 100vh;
   margin: 0;
-  background: var(--paper);
-  color: var(--charcoal);
+  background: var(--cloud-white);
+  color: var(--deep-indigo);
   font-family: "Manrope", sans-serif;
   line-height: 1.65;
 }
 
 nav {
   padding: 12px 24px;
-  background: var(--navy);
+  background: var(--deep-indigo);
   border-bottom: 4px solid var(--teal);
 }
 
@@ -46,7 +45,7 @@ nav button {
   border: 1px solid transparent;
   border-radius: 5px;
   background: transparent;
-  color: var(--paper);
+  color: var(--cloud-white);
   font: 600 14px "Manrope", sans-serif;
   cursor: pointer;
   transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
@@ -54,21 +53,21 @@ nav button {
 
 nav button:hover,
 nav button:focus-visible {
-  border-color: var(--teal);
-  background: var(--teal);
-  color: var(--navy);
+  border-color: var(--violet);
+  background: var(--violet);
+  color: var(--cloud-white);
 }
 
 nav button:focus-visible,
 input:focus-visible {
-  outline: 3px solid var(--yellow);
+  outline: 3px solid var(--amber);
   outline-offset: 3px;
 }
 
 h1,
 h2,
 h3 {
-  color: var(--navy);
+  color: var(--deep-indigo);
   font-family: "Space Grotesk", sans-serif;
   line-height: 1.2;
 }
@@ -90,23 +89,24 @@ h3 {
 }
 
 p {
-  color: var(--charcoal);
+  color: var(--deep-indigo);
   font-size: 1rem;
 }
 
 header {
   padding: 34px 24px;
-  background: var(--teal);
+  background: var(--deep-indigo);
   text-align: center;
 }
 
 header h1 {
   margin: 0 0 8px;
+  color: var(--cloud-white);
 }
 
 header h2 {
   margin: 0;
-  color: var(--blue);
+  color: var(--cloud-white);
 }
 
 .profile {
@@ -124,9 +124,9 @@ header h2 {
   padding: 40px;
   overflow: hidden;
   border-radius: 8px;
-  background-color: var(--paper);
+  background-color: var(--cloud-white);
   background-image:
-    linear-gradient(90deg, rgb(244 247 250 / 94%) 0%, rgb(244 247 250 / 86%) 42%, rgb(244 247 250 / 24%) 70%, transparent 100%),
+    linear-gradient(90deg, rgb(244 241 255 / 94%) 0%, rgb(244 241 255 / 86%) 42%, rgb(244 241 255 / 24%) 70%, transparent 100%),
     url("../images/Geometric Tech Mountain Vista.png");
   background-position: center 58%;
   background-size: cover;
@@ -138,12 +138,14 @@ header h2 {
   grid-row: 1;
   margin: 0 0 12px;
   padding: 0;
+  color: var(--deep-indigo);
   font-size: 3rem;
   text-align: left;
 }
 
 .profile header h2 {
   margin: 8px 0;
+  color: var(--deep-indigo);
   text-align: left;
 }
 
@@ -155,7 +157,7 @@ header h2 {
 .profile header h2:last-of-type {
   grid-column: 1;
   grid-row: 3;
-  color: var(--blue);
+  color: var(--royal-purple);
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -176,7 +178,7 @@ img {
   width: 240px;
   aspect-ratio: 1;
   margin: 0 auto;
-  border: 6px solid var(--white);
+  border: 6px solid var(--cloud-white);
   border-radius: 50%;
   object-fit: cover;
   box-shadow: var(--shadow);
@@ -186,9 +188,9 @@ img {
   max-width: 1032px;
   margin: 0 auto 40px;
   padding: 18px 24px;
-  border-left: 5px solid var(--orange);
+  border-left: 5px solid var(--amber);
   border-radius: 0 5px 5px 0;
-  background: var(--white);
+  background: var(--cloud-white);
 }
 
 .profile + div p {
@@ -208,7 +210,7 @@ table {
   overflow: hidden;
   border-collapse: collapse;
   border-radius: 7px;
-  background: var(--white);
+  background: var(--cloud-white);
   box-shadow: var(--shadow);
   text-align: left;
 }
@@ -216,18 +218,18 @@ table {
 th,
 td {
   padding: 15px 18px;
-  border-bottom: 1px solid #dce4e9;
+  border-bottom: 1px solid var(--lilac);
 }
 
 th {
-  background: var(--navy);
-  color: var(--paper);
+  background: var(--deep-indigo);
+  color: var(--cloud-white);
   font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
 }
 
 tbody tr:nth-child(even) {
-  background: #e9f1f3;
+  background: var(--lilac);
 }
 
 tbody tr:last-child td {
@@ -241,9 +243,9 @@ tbody tr:last-child td {
   margin: 12px;
   padding: 24px;
   vertical-align: top;
-  border-top: 4px solid var(--yellow);
+  border-top: 4px solid var(--amber);
   border-radius: 6px;
-  background: var(--white);
+  background: var(--cloud-white);
   box-shadow: var(--shadow);
 }
 
@@ -261,7 +263,7 @@ tbody tr:last-child td {
   margin: 16px auto;
   border-radius: 4px;
   object-fit: contain;
-  background: var(--paper);
+  background: var(--cloud-white);
 }
 
 .hobby-card p {
@@ -281,9 +283,9 @@ tbody tr:last-child td {
 .gallery img {
   width: 100%;
   aspect-ratio: 3 / 4;
-  border: 1px solid #dce4e9;
+  border: 1px solid var(--lilac);
   border-radius: 6px;
-  background: var(--white);
+  background: var(--cloud-white);
   object-fit: cover;
   box-shadow: var(--shadow);
   transition: transform 180ms ease, box-shadow 180ms ease;  
@@ -291,7 +293,7 @@ tbody tr:last-child td {
 
 .gallery img:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 36px rgb(15 42 68 / 18%);
+  box-shadow: 0 16px 36px rgb(26 15 46 / 18%);
 }
 
 .audio-player {
@@ -306,15 +308,15 @@ tbody tr:last-child td {
   max-width: 520px;
   margin: 24px auto 48px;
   padding: 30px;
-  border-top: 4px solid var(--orange);
+  border-top: 4px solid var(--amber);
   border-radius: 7px;
-  background: var(--white);
+  background: var(--cloud-white);
   box-shadow: var(--shadow);
   text-align: left;
 }
 
 .SignupForm label {
-  color: var(--navy);
+  color: var(--deep-indigo);
   font-weight: 700;
 }
 
@@ -324,10 +326,10 @@ tbody tr:last-child td {
   width: 100%;
   min-height: 44px;
   padding: 10px 12px;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--mint);
   border-radius: 4px;
-  background: var(--paper);
-  color: var(--charcoal);
+  background: var(--cloud-white);
+  color: var(--deep-indigo);
   font: inherit;
 }
 
@@ -337,21 +339,21 @@ tbody tr:last-child td {
   padding: 10px 18px;
   border: 0;
   border-radius: 4px;
-  background: var(--orange);
-  color: var(--white);
+  background: var(--royal-purple);
+  color: var(--cloud-white);
   font: 700 1rem "Manrope", sans-serif;
   cursor: pointer;
 }
 
 .SignupForm input[type="submit"]:hover {
-  background: var(--navy);
+  background: var(--deep-indigo);
 }
 
 footer {
   margin-top: 48px;
   padding: 18px 24px;
-  background: var(--navy);
-  color: var(--paper);
+  background: var(--royal-purple);
+  color: var(--cloud-white);
   text-align: center;
 }
 
